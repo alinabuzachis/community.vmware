@@ -104,6 +104,8 @@ plugins/modules/vmware_portgroup.py validate-modules:missing-suboption-docs
 plugins/modules/vmware_portgroup.py validate-modules:parameter-list-no-elements
 plugins/modules/vmware_portgroup.py validate-modules:parameter-type-not-in-doc
 plugins/modules/vmware_portgroup.py validate-modules:undocumented-parameter
+plugins/modules/vmware_recommended_datastore.py compile-2.6!skip
+plugins/modules/vmware_recommended_datastore.py import-2.6!skip
 plugins/modules/vmware_tag_manager.py validate-modules:parameter-list-no-elements
 plugins/modules/vmware_vcenter_settings.py validate-modules:doc-default-does-not-match-spec
 plugins/modules/vmware_vcenter_settings.py validate-modules:missing-suboption-docs
